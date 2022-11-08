@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>User Register</title>
+    
+</head>
+<body>
+    <main id="main">
+        <h1>User Informations</h1>
+        <form id="register_form">
+            <div class="full_box">
+                <label>Email<input type="email" placeholder="Insert your Email" id="email"></label>
+            </div>
+            <div class="half_box spacing">
+                <label>Name<input type="text" placeholder="Insert your Name" id="name"></label>
+            </div>
+            <div class="half_box">
+                <label>Lastname<input type="text" placeholder="Insert your Lastname" id="lastname"></label>
+            </div>
+            <div class="half_box spacing">
+                <label>Password<input type="password" placeholder="Insert your Password" id="password"></label>
+            </div>
+            <div class="half_box">
+                <label>Confirm Password<input type="password" placeholder="Confirm your Password" id="pass_confirm"></label>
+            </div>
+            <div class="full_box">
+               <input type="checkbox" id="agreement"><label id="agreement_label">I have read and accept the <a href="">Terms of Use</a></label>
+            </div>
+            <div class="full_box">
+                <input type="submit" id="submit_button" value="Submit">
+             </div>
+        </form>
+    </main>
+    <p class="error_validation_temp"></p>
+    <script src=""></script>
+</body>
+</html>

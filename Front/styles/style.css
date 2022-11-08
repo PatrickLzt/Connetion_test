@@ -1,0 +1,110 @@
+/* all */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: Helvetica, sans-serif;
+    color: rgb(66, 66, 60);
+}
+
+input, label{
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus{
+    outline: none;
+}
+
+a{
+    color: rgb(223, 17, 212);
+}
+
+body{
+    padding-top: 5%;
+    background-image: url(../img/pexels-irina-iriser-1379636.jpg);
+    background-size: cover;
+}
+
+/* form */
+
+#main{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#main h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;  /* adapted for root device */
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full_box{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half_box{
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing{
+    margin-right: 2.5%;
+}
+
+label{
+    font-weight: bold;
+    font-size: 80%;
+}
+
+input{
+    border-bottom: 2px solid rgb(66, 66, 60);
+    padding: 10px;
+    font-size: 90%;
+    margin-bottom: 40px;
+}
+
+input:focus{
+    border-color: rgb(223, 17, 212);
+}
+
+input[type="submit"]{
+    background-color: rgb(223, 17, 212);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#agreement, #agreement_label{
+    display: inline-block;
+    width: auto;
+    margin: 5px;
+}
+
+/* error */
+
+.error_validation{
+    color: rgb(220, 37, 37);
+    position: absolute;
+    top: 60px;
+    font-size: 80%;
+}
+
+.template{
+    display: none;
+}
